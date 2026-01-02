@@ -19,10 +19,10 @@
 
 ## Phase 3: データベース設定
 
-- [ ] MongoDB ローカル環境構築（Docker or Atlas）
-- [ ] Prisma schema 作成 (`prisma/schema.prisma`)
-- [ ] Prisma Client 生成 (`npx prisma generate`)
-- [ ] DB接続確認
+- [x] MongoDB ローカル環境構築（Docker）
+- [x] Prisma schema 作成 (`prisma/schema.prisma`)
+- [x] Prisma Client 生成 (`npx prisma generate`)
+- [x] DB接続確認
 
 ## Phase 4: Mastra エージェント設定
 
@@ -109,7 +109,7 @@ gcloud run deploy ai-chat --source . --region asia-northeast1 --allow-unauthenti
 |-------|------|------|
 | 1. 初期化 | 完了 | |
 | 2. パッケージ | 完了 | |
-| 3. DB設定 | 未着手 | |
+| 3. DB設定 | 完了 | |
 | 4. Mastra | 未着手 | |
 | 5. API | 未着手 | |
 | 6. フロント | 未着手 | |
